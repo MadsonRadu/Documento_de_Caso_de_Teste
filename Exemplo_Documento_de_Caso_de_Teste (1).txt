@@ -1,0 +1,371 @@
+﻿Documento de Caso de Teste – Software XYZ
+Identificação
+Versão
+	1.0.0
+	Data de Criação
+	11/12/2022
+	Autor
+	Madson Radú
+	Descrição
+	Este caso de teste é responsável por testar o processo de login do usuário no Software XYZ.
+
+
+	
+
+Caso de Teste
+	Id
+	Etapas
+	Resultados Esperados
+	01 – Efetuar login
+	1
+	Acesse a tela de login do Software XYZ.
+	
+
+	2
+	Insira um nome de usuário inválido e uma senha válida.
+	
+
+	3
+	Verifique se a mensagem de erro é exibida corretamente.
+	O software deve exibir uma mensagem de erro indicando que o nome de usuário ou senha é inválido.
+	4
+	Insira um nome de usuário válido e uma senha inválida.
+	
+
+	5
+	Verifique se a mensagem de erro é exibida corretamente.
+	O software deve exibir uma mensagem de erro indicando que o nome de usuário ou senha é inválido
+	6
+	Insira um nome de usuário e senha válidos.
+	
+
+	7
+	Insira um nome de usuário e senha válidos.
+	O software deve direcionar o usuário para a tela principal após o login com sucesso.
+	8
+	verificar se caso usuário fazer logout, as informações serão apagadas, 
+	
+
+	9
+	tenta com letras minusculas e maiusculas 
+
+
+
+
+	
+
+	10
+	teste com acentuações, sem ponto.
+	verificar se ocorre mensagens de erro
+	11
+	 Verifique se o software exibe uma mensagem de erro apropriada quando o usuário deixa partes dos campos de nome de usuário ou senha em branco.
+	
+
+	
+
+
+
+Caso de Teste
+	Id
+	Etapas
+	Resultados Esperados
+	01 – Adicionar banco de dados. 
+
+
+	1
+	verificar quais informações foram pegar e enquanto tempo serão apagadas
+	
+
+	2
+	verificar se informações estão sendo redirecionadas 
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+Caso de Teste
+	Id
+	Etapas
+	Resultados Esperados
+	01 – Efetuar logout
+	-1
+	Acesse a tela de logout do Software XYZ.
+	
+
+	0
+	Verificar se o logout em um dispositivo encerra a sessão em todos os dispositivos.
+	
+
+	1
+	click com botão direit,
+click e fecha 
+
+
+	
+
+	2
+	Verificar se o usuário é redirecionado para a tela de login ou página inicial após o logout.
+	
+
+	3
+	Verifique se todos os dados da sessão do usuário foram apagados após o logout.
+	
+
+	4
+	faça logout e tente fazer login novamente
+	
+
+	5
+	verificar se desconectar de todas as contas com logout
+	
+
+	6
+	Verifique se todos os dados da sessão do usuário foram apagados após o logout.
+
+
+
+
+	
+
+	
+
+	7
+	 fechar o navegador ou expirar o tempo limite da sessão.
+	
+
+	
+
+	8
+	fazer o teste em diferentes condições de rede, como conexão lenta, intermitente ou ate sem.
+	
+
+	
+
+	
+
+	logout durante a execução de tarefas, como compra de um documento ou envio de um formulário.
+	
+
+	
+
+
+
+Caso de Teste
+	Id
+	Etapas
+	Resultados Esperados
+	01 – Adicionar um formulário 
+
+
+	1
+	verifica botão de envio com botão direito ou dois clicks,  
+	envio concluido
+	2
+	click com botão direito,
+click e fecha 
+
+
+	
+
+	3
+	testa quase todos os campos válidos e outros válidos 
+	O software deve exibir uma mensagem de erro indicando que a informação de algum campo está errada.
+	4
+	Insira um nome de usuário válido e uma senha inválida ou vice e verso.
+	
+
+	5
+	Verifique se a mensagem de erro é exibida corretamente.
+	se ocorre erro deve ser exibido uma mensagem de erro para comunicar o usuário o'que ocorreu.
+	7
+	Insira um nome de usuário e senha válidos.
+
+
+	ser redirecionado para a tele inicial
+	8
+
+
+
+
+
+
+
+
+	cep valido com cpf invalido, testa e mail sem @gmail.com.
+	
+
+	9
+
+
+
+
+
+
+
+
+	tente de senha antiga 
+ou parecida.
+	
+
+	10
+	verificar o teste de validação exemp(@,DD,cpf) e os símbolos
+
+
+	
+
+	11
+	dados preenchidos em campos diferentes, email no lugar de senha e virse e versa
+	
+
+	
+
+
+
+Caso de Teste
+	Id
+	Etapas
+	Resultados Esperados
+	01 – flexibilidade 
+
+
+	1
+	teste de cores
+
+
+	
+
+	2
+	 Verifique se a interface do usuário é intuitiva e fácil de navegar.
+	
+
+	3
+	 Verifique se o sistema é acessível a usuários com deficiência, como usuários com deficiência visual ou auditiva.
+	
+
+	4
+	 Verifique se as cores são usadas de forma consistente em toda a interface do usuário.
+	
+
+	5
+	Se o software permitir a personalização de cores, teste diferentes combinações para garantir que funcionem corretamente e não causem problemas de usabilidade.
+	
+
+	6
+	Se o software tiver um modo noturno, teste se as cores são adequadas para visualização em ambientes com pouca luz.
+	
+
+	
+
+
+
+
+
+
+
+Caso de Teste
+	Id
+	Etapas
+	Resultados Esperados
+	01 – Compartilhamento 
+
+
+	1
+	
+
+ Um usuário indica um amigo usando seu endereço de e-mail.
+
+
+
+
+
+
+	O amigo indicado deve receber um e-mail com um convite para se cadastrar no sistema.
+	2
+	 Verificar se o usuário que indicou o amigo recebe a recompensa correta
+
+
+
+
+	
+
+	3
+	 
+
+
+
+
+	
+
+	4
+	 
+
+
+
+
+	
+
+	5
+	
+
+
+
+
+
+	
+
+	6
+	
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Responsabilidades
+Testador: [Nome do responsável por executar este caso de teste]
+Gerente de projeto: [Nome do responsável por verificar os resultados deste caso de teste]
+Desenvolvedor: [Nome do responsável por corrigir quaisquer problemas encontrados durante a execução deste caso de teste].
+
+
+Histórico de Revisões
+Versão 1.0: Criado por José Alberto em 15/02/2023
